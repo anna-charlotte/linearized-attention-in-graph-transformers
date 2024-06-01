@@ -6,9 +6,11 @@ Specifically we explore [Linformer](https://arxiv.org/abs/2006.04768) and [Perfo
 
 ## Abstract
 
-Transformers have revolutionized the field of Nat- ural Language Processing (NLP). Its success has inspired adaptations across various domains, in- cluding graph representation learning. However, the conventional full-attention mechanism em- ployed by transformers, suffers from quadratic time and memory complexity, which poses a chal- lenge when dealing with large graphs. This study aims to assess the efficacy of linearized attention mechanisms in graph transformers, specifically comparing the traditional full-attention to the Lin- former and Performer adaptations.
-We evaluate the three mechanisms on three suit- able benchmark datasets, based on their perfor- mance and efficiency. The findings show that while the full-attention model marginally out- performs the linearized models on most of the datasets, it requires significantly more memory on larger datasets. Our empirical evaluation indicates that the Performer model slightly surpasses the Linformer in performance, albeit at the cost of increased memory usage.
-This research aims to make graph-based learn- ing more scalable and efficient, thereby enabling broader application and research in this field.
+Transformers have revolutionized the field of Natural Language Processing (NLP). Its success has inspired adaptations across various domains, including graph representation learning. However, the conventional full-attention mechanism employed by transformers, suffers from quadratic time and memory complexity, which poses a challenge when dealing with large graphs. This project aims to assess the efficacy of linearized attention mechanisms in graph transformers, specifically comparing the traditional full-attention to the Linformer and Performer adaptations.
+
+We evaluate the three mechanisms on three suitable benchmark datasets, based on their performance and efficiency. The findings show that while the full-attention model marginally outperforms the linearized models on most of the datasets, it requires significantly more memory on larger datasets. Our empirical evaluation indicates that the Performer model slightly surpasses the Linformer in performance, albeit at the cost of increased memory usage.
+
+This research aims to make graph-based learning more scalable and efficient, thereby enabling broader application and research in this field.
 
 ## Getting started:
 
