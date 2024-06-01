@@ -17,13 +17,13 @@ This research aims to make graph-based learning more scalable and efficient, the
 Start by cloning the repository:
 
 ```
-git clone https://github.com/anonymousoxford2024/GDL.git
+git clone https://github.com/anna-charlotte/linearized-attention-in-graph-transformers.git
 ```
 
 Or via SSH:
 
 ```
-git clone git@github.com:anonymousoxford2024/GDL.git
+git clone git@github.com:anna-charlotte/linearized-attention-in-graph-transformers.git
 ```
 
 If you don't already have Poetry installed, by running the following command.
