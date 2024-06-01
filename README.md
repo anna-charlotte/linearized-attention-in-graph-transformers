@@ -1,10 +1,14 @@
-# Geometric Deep Learning
-
-## Evaluating the Impact of Linearized Attention vs Full-Attention in Graph Transformers
+# Evaluating the Impact of Linearized Attention vs Full-Attention in Graph Transformers
 
 This project aims to investigate the impact of linearized attention mechanisms compared
 to the conventional full-attention mechanism.
-Specifically we explore Linformer and Performer adaptations from NLP to the graph domain.
+Specifically we explore [Linformer](https://arxiv.org/abs/2006.04768) and [Performer](https://arxiv.org/abs/2009.14794) adaptations from NLP to the graph domain.
+
+## Abstract
+
+Transformers have revolutionized the field of Nat- ural Language Processing (NLP). Its success has inspired adaptations across various domains, in- cluding graph representation learning. However, the conventional full-attention mechanism em- ployed by transformers, suffers from quadratic time and memory complexity, which poses a chal- lenge when dealing with large graphs. This study aims to assess the efficacy of linearized attention mechanisms in graph transformers, specifically comparing the traditional full-attention to the Lin- former and Performer adaptations.
+We evaluate the three mechanisms on three suit- able benchmark datasets, based on their perfor- mance and efficiency. The findings show that while the full-attention model marginally out- performs the linearized models on most of the datasets, it requires significantly more memory on larger datasets. Our empirical evaluation indicates that the Performer model slightly surpasses the Linformer in performance, albeit at the cost of increased memory usage.
+This research aims to make graph-based learn- ing more scalable and efficient, thereby enabling broader application and research in this field.
 
 ## Getting started:
 
